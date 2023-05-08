@@ -2,7 +2,7 @@ import phonenumbers
 from phonenumbers import carrier
 from phonenumbers import geocoder
 
-number = "YOUR PHONE NUMBER"
+number = "+34603233484"
 
 ch_number = phonenumbers.parse(number, "CH")
 service_number = phonenumbers.parse(number, "RO")
